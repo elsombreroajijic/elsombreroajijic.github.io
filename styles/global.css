@@ -11,7 +11,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
 
-    min-height: 100px;
+    height: 100px;
     width: 100%;
     padding: 15px;
 
@@ -22,18 +22,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90%;
+    max-height: 100px;
 }
 
 #header-logo img {
-    height: 100px;
-
+    height: 100%;
+    max-height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 0px 0px grey;
 }
 
 #header-links {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .header-link {
@@ -45,7 +50,7 @@ header {
     color: brown;
     background-color: white;
     height: 35px;
-    width: 100px;
+    width: 75px;
     border-radius: 10px;
 }
 
@@ -61,6 +66,8 @@ header {
 
     header {
         flex-flow: column;
+        gap: 15px;
+        height: fit-content;
     }
 }
 
@@ -80,11 +87,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
 
-    height: 50px;
+    height: fit-content;
+    max-height: 100px;
     width: 100%;
+    gap: 5px;
+    padding: 15px;
 
     text-align: center;
     background-color: brown;
+    color: white;
+}
+
+
+footer a{
+    text-align: center;
     color: white;
 }
