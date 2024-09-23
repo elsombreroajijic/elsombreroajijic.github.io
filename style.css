@@ -7,7 +7,7 @@
     height: 80vh;
 
     
-    background-image: url("../img/pic_11.jpg");
+    background-image: url("./assets/img/pic_11.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
 
 /************************************************/
 #who-section {
-    background-image: url("../img/pic_10.jpg");
+    background-image: url("./assets/img/pic_10.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -188,7 +188,7 @@
     width: 100%;
     min-height: 500px;
 
-    background-image: url("../img/pic_10.jpg");
+    background-image: url("./assets/img/pic_10.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -3,72 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./assets/styles/global.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
-    <title>El Sombrero</title>
+    <meta name="description" content="El Sombrero: Disfruta de una fusión emocionante de sabores del suroeste de Estados Unidos y la auténtica comida mexicana.">
+    <meta name="keywords" content="Restaurante, Comida Mexicana, El Sombrero, Ajijic, Jalisco">
+    <meta name="author" content="El Sombrero">
+    <title>El Sombrero | Mexican Cuisine</title>
 </head>
 <body>
-    
     <header>
-        <a id="header-logo" href="index.html">
-            <img src="img/logo.png" alt="logo">
+        <a id="header-logo" href="index.html" aria-label="Ir a la página de inicio">
+            <img src="./assets/img/logo.png" alt="El Sombrero logo">
         </a>
-        <div id="header-links">
-            <a href="index.html" class="header-link">Inicio</a>
-            <a href="menu.html" class="header-link">Menú</a>
-            <a href="galeria.html" class="header-link">Galería</a>
-        </div>
+        <nav id="header-links">
+            <a href="./" class="header-link" aria-label="Ir a Inicio">Inicio</a>
+            <a href="./pages/menu/" class="header-link" aria-label="Ver Menú">Menú</a>
+            <a href="./pages/gallery/" class="header-link" aria-label="Ver Galería">Galería</a>
+        </nav>
     </header>
 
     <main>
-        <section id="superhero-section">
-            <div id="superhero-title">
-                <img src="img/logo.png" alt="logo">
+        <section id="superhero-section" class="section">
+            <div id="superhero-title" class="container">
+                <img src="assets/img/logo.png" alt="El Sombrero logo" class="logo-image">
                 <h1>El Sombrero</h1>
-                <h4>Mexican Cuisine</h4>
+                <h2>Mexican Cuisine</h2>
             </div>    
         </section>
 
-        <section id="address-section">
+        <section id="address-section" class="section">
+            <!-- Add address or map details here if needed -->
         </section>
         
-        <section id="who-section">
-            <div id="who-container">
+        <section id="who-section" class="section">
+            <div id="who-container" class="container">
                 <div id="who-text">
                     <p>Con una fusión emocionante de sabores del suroeste de Estados Unidos y la autenticidad de la comida mexicana, "El Sombrero" te invita a disfrutar de una experiencia gastronómica única.</p>                
                 </div>
                 
                 <div id="who-gallery">
-                    <img id="who-image-1" src="img/pic_9.jpg" alt="">
-                    <img id="who-image-2" src="img/pic_8.jpg" alt="">
+                    <img id="who-image-1" src="./assets/img/pic_9.jpg" alt="Delicious Mexican dish 1">
+                    <img id="who-image-2" src="./assets/img/pic_8.jpg" alt="Delicious Mexican dish 2">
                 </div>
             </div>
         </section>
         
-        <section id="section-social">
-            <a class="social-link" href="https://www.facebook.com/1elsombrerorestauranteajijicjalisco?_rdr">
-                <img src="img/facebook.png" alt="">
+        <section id="section-social" class="section">
+            <a class="social-link" href="https://www.facebook.com/1elsombrerorestauranteajijicjalisco?_rdr" aria-label="Visitar Facebook">
+                <img src="./assets/img/facebook.png" alt="Facebook">
             </a>
-            <a class="social-link" href="https://traitte.mx/">
-                <img src="img/traitte.png" alt="">
+            <a class="social-link" href="https://traitte.mx/" aria-label="Visitar Traitte">
+                <img src="./assets/img/traitte.png" alt="Traitte">
             </a>
-            <a class="social-link" href="https://www.instagram.com/elsombrero.ajijic/">
-                <img src="img/instagram.png" alt="">
+            <a class="social-link" href="https://www.instagram.com/elsombrero.ajijic/" aria-label="Visitar Instagram">
+                <img src="./assets/img/instagram.png" alt="Instagram">
             </a>
         </section>
 
-        <section id="contact-section"> 
-            <div id="contact-text">
+        <section id="contact-section" class="section"> 
+            <div id="contact-text" class="container">
                 <h2>Dudas, preguntas, sugerencias...</h2>
-                <p>elsombreroajijic@gmail.com</p>
+                <p>Contáctanos: <a href="mailto:elsombreroajijic@gmail.com" style="color: white;">elsombreroajijic@gmail.com</a></p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>El Sombrero - 2024</p>
-        <a href="https://maps.app.goo.gl/PC5PygqKmv3UqGCx7">Carretera Oriente #49 Ajijic Mpio De Chapala Jal, Chapala, Mexico</a>
+        <p>&copy; 2024 El Sombrero</p>
+        <address>
+            <a href="https://maps.app.goo.gl/PC5PygqKmv3UqGCx7" aria-label="Ver en Google Maps">Carretera Oriente #49 Ajijic Mpio De Chapala Jal, Chapala, Mexico</a>
+        </address>
     </footer>
 </body>
 </html>
