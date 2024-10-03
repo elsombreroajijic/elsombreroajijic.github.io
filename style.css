@@ -13,87 +13,10 @@
 
 #superhero-title img {
     height: 50%;
-    max-height: 250px;
+    max-height: 275px;
     background-color: white;
     border-radius: 50%;
     box-shadow: 0px 1px 1px grey;
     margin-bottom: 10px;
 }
 
-/**********************************************/
-
-#section-social {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row nowrap;
-
-    width: 100%;
-    height: 80px;
-    padding: 5px;
-    background-color: brown;
-}
-
-.social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-width: 70px;
-    height: 100%;
-
-    border-radius: 50%;
-    background-color: rgba(245, 245, 245, 0);
-    transition: all 0.5s;
-}
-
-.social-link:hover{
-    background-color: rgb(245, 245, 245);
-}
-
-.social-link:active{
-    background-color: rgb(245, 245, 245);
-}
-.social-link img {
-    display: block;
-    height: 80%;
-    width: 80%;
-    transition: all 0.25s;
-}
-
-.social-link img:hover{
-    height: 85%;
-    width: 85%;
-}
-
-.social-link img:active{
-    height: 85%;
-    width: 85%;
-}
-
-/*****************************************************/
-
-#contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    min-height: 500px;
-
-    background-image: url("./assets/img/pic_10.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#contact-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    color: white;
-    text-shadow: 1px 1px 2.5px black;
-    text-align: center;
-    font-size: x-large;
-}
